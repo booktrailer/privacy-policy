@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Privacy Policy • Schoology Checkbox</title>
+  <meta name="description" content="Privacy Policy for the Schoology Checkbox Chrome Extension." />
+  <style>
+    :root{
+      --bg: #ffffff;
+      --text: #111827;
+      --muted: #6b7280;
+      --card: #f9fafb;
+      --border: #e5e7eb;
+      --link: #2563eb;
+      --accent: #111827;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+    header {
+      border-bottom: 1px solid var(--border);
+      background: linear-gradient(180deg, #ffffff 0%, #fafafa 100%);
+    }
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 24px;
+    }
+    h1 {
+      font-size: clamp(1.6rem, 2.4vw + 1rem, 2.25rem);
+      margin: 0 0 6px;
+      letter-spacing: -0.01em;
+    }
+    .subtitle {
+      color: var(--muted);
+      margin: 0 0 8px;
+      font-size: 0.95rem;
+    }
+    .meta {
+      font-size: 0.9rem;
+      color: var(--muted);
+      display: flex;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+    nav.toc {
+      margin: 24px 0;
+      padding: 16px;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+    }
+    nav.toc a {
+      color: var(--link);
+      text-decoration: none;
+    }
+    nav.toc a:hover { text-decoration: underline; }
+    main section {
+      padding: 20px 0;
+      border-bottom: 1px solid var(--border);
+    }
+    main h2 {
+      font-size: 1.25rem;
+      margin: 0 0 8px;
+    }
+    main p, main li { font-size: 1rem; }
+    code, kbd {
+      background: #1118270d;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 0 6px;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      font-size: 0.95em;
+    }
+    .note {
+      padding: 12px 14px;
+      border: 1px dashed var(--border);
+      border-radius: 10px;
+      background: #f8fafc;
+      color: #0f172a;
+    }
+    footer {
+      padding: 24px 0 48px;
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+    .brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-weight: 700;
+      letter-spacing: 0.2px;
+    }
+    .brand-badge {
+      width: 28px; height: 28px;
+      border-radius: 8px;
+      background: #111827;
+      color: #fff;
+      display: grid;
+      place-items: center;
+      font-size: 0.9rem;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0b0f16;
+        --text: #e5e7eb;
+        --muted: #9ca3af;
+        --card: #0f172a;
+        --border: #1f2937;
+        --link: #93c5fd;
+        --accent: #e5e7eb;
+      }
+      header { background: linear-gradient(180deg, #0b0f16 0%, #0e1420 100%); }
+      .note { background: #0e1420; color: #e5e7eb; }
+      code, kbd { background: #111827; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="brand"><span class="brand-badge">S✓</span> Schoology Checkbox</div>
+      <h1>Privacy Policy</h1>
+      <p class="subtitle">How we handle your data—short answer: we don't collect or transmit any.</p>
+      <div class="meta">
+        <span><strong>Effective date:</strong> October 27, 2025</span>
+        <span><strong>Extension version:</strong> 1.5</span>
+      </div>
+    </div>
+  </header>
+
+  <div class="container">
+    <nav class="toc" aria-label="Table of contents">
+      <strong>On this page:</strong>
+      <ul>
+        <li><a href="#summary">Summary (TL;DR)</a></li>
+        <li><a href="#what-it-does">What This Extension Does</a></li>
+        <li><a href="#data-we-store">Data We Store (Local / Chrome Sync)</a></li>
+        <li><a href="#data-we-dont-collect">Data We Do Not Collect</a></li>
+        <li><a href="#how-we-use">How We Use Your Data</a></li>
+        <li><a href="#where-it-lives">Where Your Data Lives</a></li>
+        <li><a href="#permissions-apis">Permissions &amp; APIs</a></li>
+        <li><a href="#retention-deletion">Data Retention &amp; Deletion</a></li>
+        <li><a href="#children">Children’s Privacy</a></li>
+        <li><a href="#security">Security</a></li>
+        <li><a href="#third-parties">Third Parties</a></li>
+        <li><a href="#affiliation">No Affiliation with Schoology</a></li>
+        <li><a href="#controls">Your Controls</a></li>
+        <li><a href="#changes">Changes to This Policy</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#dev-notes">Developer Notes</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <section id="summary">
+        <h2>Summary (TL;DR)</h2>
+        <ul>
+          <li>We <strong>do not</strong> collect, transmit, sell, or share your data.</li>
+          <li>All processing happens <strong>locally</strong> in your browser.</li>
+          <li>State (checked items, settings, custom tasks) is stored using Chrome’s <code>chrome.storage.sync</code>.</li>
+          <li>You can clear all saved data at any time using the in-product <em>Clear All Crossouts</em> button.</li>
+        </ul>
+      </section>
+
+      <section id="what-it-does">
+        <h2>What This Extension Does</h2>
+        <p>The Extension augments Schoology pages that match:</p>
+        <ul>
+          <li><code>*://*.schoology.com/*</code></li>
+          <li><code>*://*.schoology.harker.org/*</code></li>
+        </ul>
+        <p>It injects UI (checkboxes, toggles, and a “Custom Tasks” input), applies strike-through styles when you check items, and remembers your selections and preferences.</p>
+      </section>
+
+      <section id="data-we-store">
+        <h2>Data We Store (Local / Chrome Sync)</h2>
+        <ol>
+          <li><strong>Assignment completion state</strong> — a boolean keyed by a stable assignment ID derived from visible titles (normalized) or, if needed, the item URL.</li>
+          <li><strong>Custom tasks (user-created)</strong> — each task stores <code>{ text, checked, [completedAt] }</code> under a generated ID (e.g., <code>custom-task-123...</code>). <em>Avoid entering sensitive information in task text.</em></li>
+          <li><strong>UI preferences</strong> — <code>customTasksEnabled</code> and <code>calendarCheckboxesEnabled</code> (both default to <code>true</code>).</li>
+        </ol>
+        <p class="note"><strong>Important:</strong> Data is saved via <code>chrome.storage.sync</code>. If Chrome Sync is enabled, Google may replicate this data across your signed-in devices per your Chrome settings. We do not receive it.</p>
+      </section>
+
+      <section id="data-we-dont-collect">
+        <h2>Data We Do Not Collect</h2>
+        <ul>
+          <li>No names, emails, passwords, cookies, or tokens.</li>
+          <li>No grades, submissions, private messages, or course content beyond the visible text used locally to label checkboxes.</li>
+          <li>No browsing history outside of the whitelisted Schoology domains.</li>
+          <li>No analytics, tracking, or advertising SDKs.</li>
+          <li>No keystroke logging (beyond text you intentionally type into “Custom Tasks”).</li>
+        </ul>
+      </section>
+
+      <section id="how-we-use">
+        <h2>How We Use Your Data</h2>
+        <p>Exclusively to provide functionality (checkboxes, strike-throughs, preferences, and custom tasks). We do not train models, build profiles, or run ads.</p>
+      </section>
+
+      <section id="where-it-lives">
+        <h2>Where Your Data Lives</h2>
+        <p>Data is stored in your browser via <code>chrome.storage.sync</code>. If Sync is enabled, Google stores encrypted copies per your Chrome account settings. We do not control, access, or transmit that data to any server.</p>
+      </section>
+
+      <section id="permissions-apis">
+        <h2>Permissions &amp; APIs</h2>
+        <ul>
+          <li><strong>Permissions:</strong> <code>"storage"</code></li>
+          <li><strong>Content Scripts:</strong> Run only on <code>*.schoology.harker.org</code> and <code>*.schoology.com</code> to adjust page UI.</li>
+          <li><strong>No network calls:</strong> No background fetches, web requests, or external servers.</li>
+        </ul>
+      </section>
+
+      <section id="retention-deletion">
+        <h2>Data Retention &amp; Deletion</h2>
+        <p>State persists until you remove it. Completed custom tasks may be cleaned up by the Extension’s logic. You can clear all saved data with the in-product <em>Clear All Crossouts</em> button, remove the extension, or clear extension data from Chrome settings.</p>
+      </section>
+
+      <section id="children">
+        <h2>Children’s Privacy</h2>
+        <p>The Extension may be used in K–12 contexts. We do not attempt to identify users or collect personal information. Please avoid entering personal or sensitive information in custom task text.</p>
+      </section>
+
+      <section id="security">
+        <h2>Security</h2>
+        <p>We rely on Chrome’s extension sandbox and <code>chrome.storage.sync</code>. No external data flows are initiated by the Extension. As with any software, avoid putting sensitive data into custom tasks.</p>
+      </section>
+
+      <section id="third-parties">
+        <h2>Third Parties</h2>
+        <p>We do not share data with third parties. Google may handle storage/replication for <code>chrome.storage.sync</code> under your Chrome account and Google’s privacy terms.</p>
+      </section>
+
+      <section id="affiliation">
+        <h2>No Affiliation with Schoology</h2>
+        <p>This is an independent tool and is not affiliated with, endorsed by, or sponsored by Schoology, Harker, or PowerSchool.</p>
+      </section>
+
+      <section id="controls">
+        <h2>Your Controls</h2>
+        <ul>
+          <li>Toggle features (show/hide Custom Tasks, show/hide Calendar checkboxes) via the in-page controls.</li>
+          <li>Clear data via the <em>Clear All Crossouts</em> button.</li>
+          <li>Remove the extension any time via <code>chrome://extensions</code>.</li>
+        </ul>
+      </section>
+
+      <section id="changes">
+        <h2>Changes to This Policy</h2>
+        <p>If we materially change how data is handled (e.g., add analytics or new permissions), we will update this policy and the manifest version. Continued use after updates constitutes acceptance of the revised policy.</p>
+      </section>
+
+      <section id="contact">
+        <h2>Contact</h2>
+        <p>Questions or concerns? Email us at <a href="randyhui123@gmail.com">randyhui123@gmail.com</a>.</p>
+      </section>
+
+      <section id="dev-notes">
+        <h2>Developer Notes (about this build)</h2>
+        <ul>
+          <li>Manifest V3, <code>"permissions": ["storage"]</code>.</li>
+          <li>Content scripts: <code>content.js</code>, <code>style.css</code>; matches limited to Schoology domains.</li>
+          <li>Stores: assignment state, custom tasks, and Boolean UI prefs.</li>
+          <li>Provides an in-UI <em>Clear All Crossouts</em> control that calls <code>chrome.storage.sync.clear()</code> for the extension’s namespace.</li>
+        </ul>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; <span id="year"></span> Schoology Checkbox. All rights reserved.</p>
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
